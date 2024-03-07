@@ -81,9 +81,6 @@ while True:
     if detection:
         out.write(frame)
 
-    # for (x, y, width, height) in faces:
-    #    cv2.rectangle(frame, (x, y), (x + width, y + height), (255, 0, 0), 3)
-
     cv2.imshow("Camera", frame)
 
     if cv2.waitKey(1) == ord('q'):
